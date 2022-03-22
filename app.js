@@ -31,3 +31,5 @@ const calculer = (valeur) => {
         
     }
 }
+
+window.addEventListener('error', (e) => alert('Une erreur est survenue dans votre calcul : ' + e.message));
